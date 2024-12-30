@@ -1,0 +1,132 @@
+body{
+    background: rgb(9,19,121);
+background: -moz-linear-gradient(90deg, rgba(9,19,121,1) 29%, rgba(224,224,224,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(9,19,121,1) 29%, rgba(224,224,224,1) 100%);
+background: linear-gradient(90deg, rgba(9,19,121,1) 29%, rgba(224,224,224,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#091379",endColorstr="#e0e0e0",GradientType=1);
+}
+#maior{
+    height: 700px;
+    width: 1400px;
+    margin: 20px;
+    display:flex;
+    gap: 160px;
+}
+#retan{
+ padding-top: 20px;
+ 
+}
+#cartão1{
+    background-color: blueviolet;
+    margin-left: 100px;
+    height: 250px; 
+    width: 500px;
+    margin-bottom: 100px;
+    
+}
+
+#cartão2{
+    background-color: blueviolet;
+    margin-left: 200px;
+    height: 250px; 
+    width: 500px;
+  
+ 
+}
+#retan2{
+
+    
+    
+}
+#cabecalho{
+    margin-top: -25px;
+    height: 150px;
+    width: 500px;
+}
+#p{
+ 
+    font-size: 45px; /* Tamanho do texto */
+    font-family: sans-serif; /* Fonte */
+    margin-bottom: -30px;
+    
+}
+#cinza{
+    background-color: rgb(179, 179, 179);
+}
+#dados{
+    height: 470px;
+    width: 450px;
+    display: column;
+    margin-top: 25px;
+    margin-left: 50px;
+    
+    
+}
+#nomecartao{
+   height: 30px;  
+   width: 100%;
+   margin-bottom: 10px;
+   text-align: left; /* Garante alinhamento à esquerda */
+}
+#retancinza{
+    height: 40px;  
+    width: 100%;
+    background-color: rgb(175, 174, 174);
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    margin-bottom: 10px;
+    text-align: left; /* Garante alinhamento à esquerda */
+    text-justify: center;
+}
+#numcartao{
+    height: 30px;  
+    width: 100%;
+    margin-bottom: 15px; 
+    margin-bottom: 15px;
+    text-align: left; /* Garante alinhamento à esquerda */
+    text-justify: center;
+}
+
+#expedição{
+    height: 30px;  
+    width: 100%; 
+    margin-bottom: 10px; 
+    text-align: left; /* Garante alinhamento à esquerda */
+    white-space: pre; /* Preserva espaços e quebras de linha */
+}
+#data{
+    height: 40px;  
+    width: 100%; 
+    display: flex;
+    justify-content: left;
+    gap:40px;
+    margin-bottom: 10px;
+   text-align: center;
+   text-justify: center;
+    
+}
+#dia{
+    height: 40px;
+    width: 65px;
+    background-color: rgb(175, 174, 174);
+    
+}
+#senha{
+    height: 30px;
+    width: 100%;  
+    margin-bottom: 10px;
+    text-align: left; /* Garante alinhamento à esquerda */
+}
+#verificar{
+    height: 50px;
+    width: 100%; 
+    background-color: rgb(140, 21, 252);
+    margin-bottom: 10px; 
+} 
+#confia {
+    height: 30px;
+    width: 100%; 
+    margin-top: 20px;
+}
